@@ -65,8 +65,8 @@ const config = {
 
   themeConfig: {
     algolia: {
-      appId: 'YOUR_APP_ID', // Replace with your Algolia App ID
-      apiKey: 'YOUR_SEARCH_API_KEY', // Replace with your search API key
+      appId: 'MUU1FDM8LM', // Replace with your Algolia App ID
+      apiKey: '3c751d90b35a916dd3e92cb5cadfd24c', // Replace with your search API key
       indexName: 'gluesql', // Replace with your index name
       contextualSearch: true,
       searchParameters: {},
