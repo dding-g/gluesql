@@ -64,6 +64,14 @@ const config = {
   ],
 
   themeConfig: {
+    algolia: {
+      appId: 'YOUR_APP_ID', // Replace with your Algolia App ID
+      apiKey: 'YOUR_SEARCH_API_KEY', // Replace with your search API key
+      indexName: 'gluesql', // Replace with your index name
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
+    },
     colorMode: {
       disableSwitch: false,
       respectPrefersColorScheme: true,
